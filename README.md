@@ -6,6 +6,12 @@ El proyecto incluye el análisis, diseño y construcción de una aplicación sof
 Con cinco compañeros del curso se conforma un equipo de trabajo y asigna un nombre al proyecto, 
 The Apprentice (El Aprendiz). Posteriormente se realiza la distribución de los roles y las funciones para cada uno de los integrantes durante los 5 sprint; ya que, el desarrollo del proyecto se abordará mediante metodologías ágiles, usando el marco de trabajo Scrum y tomando en consideración que es importante que todos cumplan el rol de desarrolladores y que los demás roles se deben rotar.
 
+Yeison Alexander Suarez Beltran - Licenciatura en Ciencias Sociales
+Edwin Ocampo Torres - Ingeniería Industrial
+Yaneth  Escobar Gonzalez - Tecnología en Electrónica
+Ana María Alzate Posada - Ingeniería Industrial
+Betsy Tatiana Flórez Carrillo - Ingeniería Industrial
+
 Para desarrollar el proyecto se plantea que, la aplicación web debe contar con los siguientes módulos:  
 1.	Módulo administrador de ventas. Permite ingresar o registrar los pedidos realizados por cada uno de los clientes. Debe tener un identificador único de venta, almacenar el valor total de la venta y la descripción detallada de la misma y tener una fecha inicial y una fecha futura de pago. Además, debe contar con un encargado de gestionar dicha venta (responsable).
 2.	Módulo para registrar el estado de la venta. Permite establecer los diferentes estados de la venta a lo largo del ciclo de vida de la línea de producción (creación, embalaje, despacho, ruta, ubicación, recepción).  
