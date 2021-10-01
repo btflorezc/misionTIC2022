@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <title>Registro de la Venta</title><br>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+</head>
+<div>
+
+<body>
+    
+    <br>
+    
+    <form action="procesardatos.php" method="POST">
+        Id_Pedido <div class="input-group">
+          <div class="col-sm-4">
+              <input type="search" class="form-control"  aria-label="Search"
+                  aria-describedby="search-addon" />
+          </div>
+          <button type="button" class="btn btn-outline-primary"
+              style="background-color: #58bbae; border: #58bbae; color:#ffffff; text-align:center">Buscar</button>
+      </div> 
+      <br>
+      Fecha_Venta <div class="input-group">
+        <div class="col-sm-4">
+            <input type="search" class="form-control"  aria-label="Search"
+                aria-describedby="search-addon" />
+        </div>
+        <button type="button" class="btn btn-outline-primary"
+            style="background-color: #58bbae; border: #58bbae; color:#ffffff; text-align:center">Buscar</button>
+    </div><br>
+        
+        Documento Id_cliente <div class="input-group">
+          <div class="col-sm-4">
+              <input type="search" class="form-control"  aria-label="Search"
+                  aria-describedby="search-addon" />
+          </div>
+          <button type="button" class="btn btn-outline-primary"
+              style="background-color: #58bbae; border: #58bbae; color:#ffffff; text-align:center">Buscar</button>
+      </div><br>
+      Nombre cliente <div class="input-group">
+        <div class="col-sm-4">
+            <input type="search" class="form-control" aria-label="Search"
+                aria-describedby="search-addon" />
+        </div>
+        <button type="button" class="btn btn-outline-primary"
+            style="background-color: #58bbae; border: #58bbae; color:#ffffff; text-align:center">Buscar</button>
+    </div><br><br>
+               
+        
+       
+    </div>   
+    </form>
+    
+    <br>
+    <table class="table-bordered" style="text-align-last: center; white-space: nowrap;
+    overflow-x: auto">
+
+        <thead>
+          <tr>
+            <th scope="col">Id Producto</th>
+            <th scope="col" style="width: 200px">Descripcion</th>
+            <th scope="col" style="width: 100px">Cantidad</th>
+            <th scope="col">Precio unitario<br>(por producto)</th>
+            <th scope="col" style="width: 100px;"> Total </th>
+           
+            
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row" >10354</th>
+            
+            <td>Ponque</td>
+            <td><div contenteditable>1</div></td>
+            <td><div contenteditable>8000</div></td>
+            <td><div contenteditable>8000</div></td> 
+            <tr>
+            <th scope="row">18832</th>
+            <td>Galletas</td>
+            <td><div contenteditable>15</div></td>
+            <td><div contenteditable>2000</div></td>
+            <td><div contenteditable>30000</div></td>
+        </tr>
+        <tr>
+            <th scope="row">28734</th>
+            <td>Postres</td>
+            <td><div contenteditable>5</div></td>
+            <td><div contenteditable>5000</div></td>
+            <td><div contenteditable>25000</div></td>
+        </tr>
+        <tr>
+            <th scope="row">23974</th>
+            <td>Empanadas</td>
+            <td><div contenteditable>10</div></td>
+            <td><div contenteditable>2000</div></td>
+            <td><div contenteditable>2000</div></td>
+        </tr>
+        <tr>
+            <th scope="row">09384</th>
+            <td>Desayunos</td>
+            <td><div contenteditable>2</div></td>
+            <td><div contenteditable>20000</div></td>
+            <td><div contenteditable>40000</div></td>
+        </tr>
+           
+        </tbody>
+         
+      </table>
+      <br>
+      Valor total venta <input type="text" name="100" id="100">
+      <br>
+      <br>
+      Estado del Pedido<select name="Estado">
+        <option value="1">En Proceso</option> 
+        <option value="2">Cancelada</option> 
+        <option value="3">Entregada</option>
+         
+     </select>
+     <br><br>
+      
+      <input type="submit" value="Actualizar" style="background-color: #58bbae; border: #58bbae ">
+      <input type="submit" value="Cancelar" style="background-color: #58bbae; border: #58bbae ">
+      <br>
+      <br>
+     
+     
+
+</body>
+</html>
