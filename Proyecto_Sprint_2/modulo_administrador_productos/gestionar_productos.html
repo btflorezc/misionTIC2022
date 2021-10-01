@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<br>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usuarios</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <h4 style="font-family: Verdana; color: #58bbae; margin-top: 25px;" >Gestión de Productos</h4>
+    </header>
+    <br>
+    <div class="input-group">
+        <div class="col-sm-4">
+        <input type="search" class="form-control" placeholder="Identificador Único" aria-label="Search"
+          aria-describedby="search-addon"/>
+        </div>
+        <button type="button" class="btn btn-outline-primary" style="background-color: #58bbae; border: #58bbae; color:#ffffff; text-align:center">Buscar</button>
+      </div>
+      <br>
+      <div class="input-group">
+        <div class="col-sm-4">
+        <input type="search" class="form-control rounded" placeholder="Valor Unitario" aria-label="Search"
+          aria-describedby="search-addon" />
+        </div>    
+        <button type="button" class="btn btn-outline-primary" style="background-color: #58bbae; border: #58bbae; color:#ffffff; text-align:center">Buscar</button>
+      </div>
+      <br>
+      <div class="input-group">
+        <div class="col-sm-4">
+        <input type="search" class="form-control rounded" placeholder="Estado" aria-label="Search"
+          aria-describedby="search-addon" />
+        </div>
+        <button type="button" class="btn btn-outline-primary" style="background-color: #58bbae; border: #58bbae; color:#ffffff; text-align:center">Buscar</button>
+      </div>
+      <br>
+
+      <ul class="list-group list-group-horizontal">
+        <li class="list-group-item"><a href="registrar_productos.html" class="list-group-item list-group-item-action list-group-item-dark" style="background-color: #58bbae; border: #58bbae; color:#ffffff; text-align:center">Registrar</a></li>
+        <li class="list-group-item"><a href="actualizar_productos.html" class="list-group-item list-group-item-action list-group-item-dark" style="background-color: #58bbae; border: #58bbae; color:#ffffff; text-align:center">Actualizar</a></li>
+        <li class="list-group-item"><a href="#" class="list-group-item list-group-item-action list-group-item-dark" style="background-color: #58bbae; border: #58bbae; color:#ffffff; text-align:center">Eliminar</a></li>
+      </ul>
+
+      <br>
+    <table class="table-bordered" style="text-align-last: center; white-space: nowrap;
+    overflow-x: auto">
+        <thead>
+            <tr>
+                <th><input type="checkbox"></th>
+                <th>Identificador único</th>
+                <th>Descripción</th>
+                <th>Valor Unitario</th>
+                <th>Estado</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="checkbox"></td>
+                <th scope="row">1</th>
+                <td>Ponqué Negro Mocka</td>
+                <td>$ 28.900</td>
+                <td>Disponible</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
